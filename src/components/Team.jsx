@@ -1,9 +1,12 @@
 import React from "react";
 import EmployeeCard from "./EmployeeCard";
-import im1 from "./image/1.jpg";
-import im2 from "./image/2.jpg";
-import im3 from "./image/3.jpg";
-import im4 from "./image/4.jpg";
+import etienne from "./image/etienne.png";
+import derrick from "./image/derrick.png";
+import leonel from "./image/leonel.png";
+import ernest from "./image/ernest.png";
+import ndjana from "./image/ndjana.png";
+import cecile from "./image/cecile.png";
+import michel from "./image/Michel.png";
 const Team = () => {
   return (
     <div className="container_team" id="team">
@@ -16,54 +19,49 @@ const Team = () => {
       </p>
       <div className="container_cardEmployee">
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im1}
+          nomEmployee={"Fomo Michel"}
+          imageemployee={michel}
           poste={"Founder & CEO"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im2}
-          poste={"Founder & CEO"}
+          nomEmployee={"CECILE POUWAMS"}
+          imageemployee={cecile}
+          poste={"Assistante de direction"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im3}
-          poste={"Founder & CEO"}
+          nomEmployee={"FOMO ETIENNE"}
+          imageemployee={etienne}
+          poste={"community manager"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im4}
-          poste={"Founder & CEO"}
+          nomEmployee={"TATA NJIAH"}
+          imageemployee={derrick}
+          poste={"Project Manager dev"}
           key={"Founder"}
         />
 
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im1}
-          poste={"Founder & CEO"}
+          nomEmployee={"NDJANA DAVY"}
+          imageemployee={ndjana}
+          poste={"Developpeur"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im2}
-          poste={"Founder & CEO"}
+          nomEmployee={"TSIMI ERNEST"}
+          imageemployee={ernest}
+          poste={"Developpeur"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im3}
-          poste={"Founder & CEO"}
+          nomEmployee={"YIMGA LEONEL"}
+          imageemployee={leonel}
+          poste={"Developpeur"}
           key={"Founder"}
         />
-        <EmployeeCard
-          nomEmployee={"Michel Fomo"}
-          imageemployee={im4}
-          poste={"Founder & CEO"}
-          key={"Founder"}
-        />
+       
       </div>
     </div>
   );
