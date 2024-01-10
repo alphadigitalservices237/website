@@ -58,7 +58,7 @@ const Team = () => {
         <EmployeeCard
           nomEmployee={"YIMGA LEONEL"}
           imageemployee={leonel}
-          poste={"Developpeur"}
+          poste={"Developpeur Front-End"}
           key={"Founder"}
         />
        

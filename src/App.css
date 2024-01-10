@@ -286,6 +286,7 @@ body{
 }
 ::-webkit-input-placeholder{
   color:#afaeae;
+  opacity: 0.7;
 }
 .subheader-text{
   background:linear-gradient(to right,#18BCFF,#0066FF);
