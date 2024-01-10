@@ -12,9 +12,9 @@ const Team = () => {
     <div className="container_team" id="team">
       <span className="subtitle"> | Team </span>
       <h3 className="semititle"> {"{Qui sommes nous}"} </h3>
-      <h1 className="title">Rencontrez notre equipe d'experts</h1>
+      <h1 className="title">Rencontrez notre équipe d'experts</h1>
       <p className="description_team">
-        A Alpha digital services, nous ne sommes pas simplement une equipe mais
+        A Alpha digital services, nous ne sommes pas simplement une équipe mais
         une famille{" "}
       </p>
       <div className="container_cardEmployee">
@@ -39,7 +39,7 @@ const Team = () => {
         <EmployeeCard
           nomEmployee={"TATA NJIAH"}
           imageemployee={derrick}
-          poste={"Project Manager dev"}
+          poste={"CTO "}
           key={"Founder"}
         />
 
