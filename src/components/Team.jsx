@@ -46,13 +46,13 @@ const Team = () => {
         <EmployeeCard
           nomEmployee={"NDJANA DAVY"}
           imageemployee={ndjana}
-          poste={"Developpeur"}
+          poste={"Developpeur Back-End"}
           key={"Founder"}
         />
         <EmployeeCard
           nomEmployee={"TSIMI ERNEST"}
           imageemployee={ernest}
-          poste={"Developpeur"}
+          poste={"Front-End"}
           key={"Founder"}
         />
         <EmployeeCard
