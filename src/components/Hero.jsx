@@ -11,22 +11,21 @@ function Hero () {
    <div className="hero-container">
        <div className="hero-div-one">
          <div className="hero-description">
-           Chez nous
+          <span  className="text-one">Chez nous</span> 
            <br />
-           <span style={{ fontWeight: 600 }}>L’innovation</span> et la <br />
-           <span style={{ fontWeight: 700, fontStyle: 'italic' }}>{"{"}</span>
-           <span style={{ fontStyle: 'italic' }}>Digitalisation</span>
-           <span style={{ fontWeight: 700, fontStyle: 'italic' }}>{"}"}</span> des <br />
-           entreprises
+           <span   className="text-two">L’innovation</span> <span  className="text-one">et la </span>  <br />
+           <span  className="text-two" >{"{"}</span>
+           <span  className="text-two">Digitalisation</span>
+           <span >{"}"}</span><span  className="text-one">des </span> <br />
+           <span  className="text-one">entreprises</span>
            <br />
-           est notre <span style={{ fontWeight: 600 }}>Priorité</span>
+           <span  className="text-one"> est notre </span><span className="text-two" >Priorité</span>
 
          </div>
 
-         <div className="hero-description-two">
-           Nous vous proposons des services de haut qualité dans le domaine de la
-           Tech.
-         </div>
+         <span className="hero-description-two">
+         Nous vous proposons des services de haut qualité dans le domain de la Tech.
+         </span>
          <button className="hero-contact-two">Contact Us</button>
        </div>
 

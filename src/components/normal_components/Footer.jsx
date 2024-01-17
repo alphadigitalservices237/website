@@ -105,7 +105,7 @@ export default function Footer()
             </div>
             <div className="copyright-n-socials">
                 <div className="copyright">
-                    Copyright 2024
+                 ©  Copyright 2024 Alphadigitalservices
                 </div>
                 <div className="socials">
                     <div className="facebook">

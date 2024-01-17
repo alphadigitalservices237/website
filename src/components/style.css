@@ -67,9 +67,9 @@
 
    .hero-description {
       
-    background: linear-gradient(90deg, #18bcff 53.51%, #06f 85.37%) !important;
+    /* background: linear-gradient(90deg, #18bcff 53.51%, #06f 85.37%) !important;
     background-clip: text !important; 
-    -webkit-background-clip: text !important;
+    -webkit-background-clip: text !important; */
 
    }
    /*service-section styling*/
@@ -89,7 +89,7 @@
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      padding: 10px 29px 65px;
+      padding: 10px 9px 0px;
     }
     @media (max-width: 991px) {
       .hero-div-one {
@@ -112,14 +112,15 @@
       height: auto;
       width: 50%;
       display: flex;
-      justify-content: center;
-      align-items: center;   
+      justify-content: end;
+      align-items: end; 
    
     }
     .div-image  img{
       height: 747px;
       position: relative;
-      left: 18%;
+      left: 11%;
+      top: -6%;
       object-fit: contain;
     }
 
@@ -264,7 +265,7 @@
     /* page Description   */
     .hero-description {
       
-      background: linear-gradient(90deg, #18bcff 53.51%, #06f 85.37%);
+      background: linear-gradient(90deg, #18bcff 53.51%, #06f 85.37%) !important;
       background-clip: text !important;
       -webkit-background-clip: text !important;
         color:transparent !important;
@@ -285,7 +286,7 @@
       .hero-description {
         max-width: 100%;
         font-size: 40px;
-        margin-top: 20px;
+        padding-top: 30px;
       }
     }
 
@@ -293,8 +294,8 @@
     
     .hero-description-two {
       color: #000;
-      margin-top: 45px;
-      max-width: 80%;
+      max-width: 50%;
+      padding-top:7px ;
       font: 400 18px Inter, sans-serif;
     }
     @media (max-width: 991px) {
@@ -314,9 +315,9 @@
       color: #fff;
       border-radius: 10px;
       background-color: #160041;
-      margin-top: 30px;
+      margin-top: 20px;
       text-align: center;
-      height: 34px;
+      height: 44px;
       width: 30%;
       cursor: pointer;
       font: 600 16px Inter, sans-serif;
