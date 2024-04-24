@@ -17,7 +17,7 @@ const Team = () => {
         A Alpha digital services, nous ne sommes pas simplement une équipe mais
         une famille{" "}
       </p>
-      <div className="container_cardEmployee">
+      {/* <div className="container_cardEmployee">
         <EmployeeCard
           // nomEmployee={"Fomo Michel"}
           imageemployee={michel}
@@ -62,7 +62,7 @@ const Team = () => {
           key={"Front"}
         />
        
-      </div>
+      </div> */}
     </div>
   );
 };
