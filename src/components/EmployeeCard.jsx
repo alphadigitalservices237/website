@@ -6,8 +6,8 @@ const EmployeeCard = ({ imageemployee }) => {
       <div className="container_image">
         {imageemployee ? (
           <img
+          alt="empl"
             src={imageemployee}
-            alt={nomEmployee}
             className="image_Card_Employee"
           />
         ) : null}
