@@ -1,6 +1,6 @@
 import React from "react";
 
-const EmployeeCard = ({ imageemployee, nomEmployee, poste }) => {
+const EmployeeCard = ({ imageemployee }) => {
   return (
     <div className="cardEmployee_container">
       <div className="container_image">
@@ -12,8 +12,8 @@ const EmployeeCard = ({ imageemployee, nomEmployee, poste }) => {
           />
         ) : null}
       </div>
-      <span className="name_employee">{nomEmployee}</span>
-      <span className="poste_Employee"> {poste} </span>
+      {/* <span className="name_employee">{nomEmployee}</span>
+      <span className="poste_Employee"> {poste} </span> */}
     </div>
   );
 };

@@ -19,46 +19,46 @@ const Team = () => {
       </p>
       <div className="container_cardEmployee">
         <EmployeeCard
-          nomEmployee={"Fomo Michel"}
+          // nomEmployee={"Fomo Michel"}
           imageemployee={michel}
-          poste={"Founder & CEO"}
+          // poste={"Founder & CEO"}
           key={"Founder"}
         />
         <EmployeeCard
-          nomEmployee={"CECILE POUWAMS"}
+          // nomEmployee={"CECILE POUWAMS"}
           imageemployee={cecile}
-          poste={"Assistante de direction"}
-          key={"Founder"}
+          // poste={"Assistante de direction"}
+          key={"Assistante"}
         />
         <EmployeeCard
-          nomEmployee={"FOMO ETIENNE"}
+          // nomEmployee={"FOMO ETIENNE"}
           imageemployee={etienne}
-          poste={"community manager"}
-          key={"Founder"}
+          // poste={"community manager"}
+          key={"community"}
         />
         <EmployeeCard
-          nomEmployee={"TATA NJIAH"}
+          // nomEmployee={"TATA NJIAH"}
           imageemployee={derrick}
-          poste={"CTO "}
-          key={"Founder"}
+          // poste={"CTO "}
+          key={"CTO"}
         />
 
         <EmployeeCard
-          nomEmployee={"NDJANA DAVY"}
+          // nomEmployee={"NDJANA DAVY"}
           imageemployee={ndjana}
-          poste={"Developpeur Back-End"}
-          key={"Founder"}
+          // poste={"Developpeur Back-End"}
+          key={"Developpeur"}
         />
         <EmployeeCard
-          nomEmployee={"TSIMI ERNEST"}
+          // nomEmployee={"TSIMI ERNEST"}
           imageemployee={ernest}
-          poste={"Developpeur Front-End"}
-          key={"Founder"}
+          // poste={"Developpeur Front-End"}
+          key={"Front"}
         />
         <EmployeeCard
-          nomEmployee={"YIMGA LEONEL"}
+          // nomEmployee={"YIMGA LEONEL"}
           imageemployee={leonel}
-          poste={"Developpeur Front-End"}
+          // poste={"Developpeur Front-End"}
           key={"Founder"}
         />
        
