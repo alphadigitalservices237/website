@@ -1,12 +1,4 @@
 import React from "react";
-import EmployeeCard from "./EmployeeCard";
-import michel from "./image/Michel.png";
-import cecile from "./image/cecile.png";
-import derrick from "./image/derrick.png";
-import ernest from "./image/ernest.png";
-import etienne from "./image/etienne.png";
-import leonel from "./image/leonel.png";
-import ndjana from "./image/ndjana.png";
 const Team = () => {
   return (
     <div className="container_team" id="team">
@@ -17,8 +9,8 @@ const Team = () => {
         A Alpha digital services, nous ne sommes pas simplement une équipe mais
         une famille{" "}
       </p>
-      {/* <div className="container_cardEmployee">
-        <EmployeeCard
+      <div className="container_cardEmployee">
+        {/* <EmployeeCard
           // nomEmployee={"Fomo Michel"}
           imageemployee={michel}
           // poste={"Founder & CEO"}
@@ -60,9 +52,9 @@ const Team = () => {
           imageemployee={leonel}
           // poste={"Developpeur Front-End"}
           key={"Front"}
-        />
+        /> */}
        
-      </div> */}
+      </div>
     </div>
   );
 };

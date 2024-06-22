@@ -51,11 +51,8 @@ export default function Footer()
                 <div className="contact-header">
                     contact
                 </div>
-                <div className="contact-header contact1">
-                    (237)687 091 407
-                </div>
                 <div className="contact-header contact2">
-                    (237)683 520 976
+                    (+237) 683 520 976
                 </div>
                 <div className="contact-header mail-header">
                     Mail

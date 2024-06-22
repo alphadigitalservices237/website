@@ -588,6 +588,7 @@ body {
   }
   .wrapper .container_team .container_cardEmployee {
     gap: 24px !important;
+    width: 100%;
   }
   .wrapper .container_contact .parts .part1 .minititle {
     font-size: 0.8rem !important;
